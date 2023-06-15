@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ritik - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:ital,wght@1,900&family=Poppins:wght@400;700&family=Ubuntu&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.04rem;
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+            width: 34px;
+            font-size: 2rem;
+            margin: 70px 0;
+
+        }
+
+        .leftsection .buttons {
+            padding: 50px 0;
+        }
+
+        .leftsection .btn {
+            padding: 12px;
+            background: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+
+        }
+
+        .purple {
+            color: rgb(170, 107, 228);
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(170, 107, 228);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 77vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .verticle-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+        }
+
+        .footer {
+            background-color: #0e0e1a;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+
+        }
+
+        .footer-second {
+            display: flex;
+            justify-content: center;
+        }
+
+        .footer-second a {
+            text-decoration: none;
+            padding: 10px;
+            background-color: aliceblue;
+            margin: 10px;
+            border-radius: 50%;
+        }
+
+        .footer-second a i {
+            font-size: 2rem;
+            color: #0e0e1a;
+            opacity: 0.9;
+        }
+
+        .footer-second a:hover {
+            background-color: #0e0e1a 
+            
+        }
+
+        .footer-second a:hover i {
+            color: white;
+            transition: 0.5s;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Ritik's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My name is <span class="purple">Ritik</span>
+                <div> and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <a href="https://github.com/RitikSinghaniya">
+                        <button class="btn">Visit Github</button>
+                    </a>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="dev.png.svg" alt="">
+            </div>
+        </section>
+        <hr>
+
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="hii.png" alt="">
+                    <div class="verticle-title">
+                        HTML Developer (2018-2019)
+                    </div>
+                    <div class="vertical-desc">
+                        I started web development Since 2018 as a beginner.
+                        There are are lots of things to remember to apply in web site
+                        It is the best way to grow-up yourself and IQ
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="back.png" alt="">
+                    <div class="verticle-title">
+                        Back-End Developer (2019-2020)
+                    </div>
+                    <div class="vertical-desc">
+                        The amount of time it takes to become a backend developer can vary depending on several factors,
+                        such as your learning pace,
+                        previous experience and the amount of time you are able to dedicate to learning
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="design.png" alt="">
+                    <div class="verticle-title">
+                        Web Designer (2020-2021)
+                    </div>
+                    <div class="vertical-desc">
+                        A website engineer is a computer and technology professional who builds websites and
+                        applications.
+                        Using computer coding skills,
+                        They can create web applications and destinations that meet user needs
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="java.png" alt="">
+                    <div class="verticle-title">
+                        Java uing DSA (2022-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        I learned java using DSA from Apna College and implement array, arraylist etc
+                        Along this I learn various pattern in java using DSA
+                        I learned lots of things to this course
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Ritik's Developer Portfolio </h3>
+            </div>
+            <div class="footer-second">
+                <a href="https://www.facebook.com/ritik.singhanya.98">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/ritik-kumar-85382a24b">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://instagram.com/r.i.t.i.k_singhaniya?igshid=YmMyMTA2M2Y=">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://twitter.com/Ritik_kumar00?t=iRTkfyfL0tNaJFe-hl-SNw&s=09">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; ritiksportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web developer', 'Software Developer', 'Web Designer.'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
